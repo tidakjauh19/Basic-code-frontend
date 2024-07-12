@@ -2,10 +2,179 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>web 1</title>
+    <style>
+        table, th,td{
+            border: 1px solid black;
+        }
+        
+    </style>
 </head>
 <body>
-    
+    <!--ini styling untuk text-->
+    <h3>KODE DALAM KEBUTUHAN TEXT</h3>
+    <p>berikut ini adalah jenis heading</p>
+    <h1>satu</h1>
+    <h2>dua</h2>
+    <h3>tiga</h3>
+    <h4>empat</h4>
+    <h5>lima</h5>
+    <h6>enam</h6><hr>
+
+    <h3>INI ADALAH FORMAT TEXT</h3>
+    <p><b>text bold</b></p>
+    <p><i>text italic</i></p>
+    <p>ini adalah text<sub>subscript</sub></p>
+    <p>dan ini adalah text <sup>supscript</sup></p><hr>
+    <!-- ini styling list -->
+    <h3>BERIKUT INI ADALAH STYLING LIST</h3>
+    <p>unordered list</p>
+    <h5>perjalanan hari ini:</h5>
+        <ul> 
+            <li>holiday</li>
+            <li>street food</li>
+            <li>healing</li>
+            <li>night riding</li>
+        </ul><br>
+        <p style="color: red;">type list bisa diganti dengan disc, circle, square, none</p><br>
+    <p>oredered list</p>
+    <h5>kamu suka makan apa?</h5>
+        <ol type="I">
+            <li>Nasi Goreng</li>
+            <li>Gacoan</li>
+            <li>Spaghetty</li>
+            <li>Pampi Goreng</li>
+        </ol><br>
+        <p style="color: red;">type bisa diganti dengan 1,i,a,A,I</p><hr>
+
+    <!--HTML TABLE-->
+    <h3>HTML Table</h3>
+    <p>AIM PERSONALITY</p>
+    <table>
+        <tr>
+            <th>NO</th>
+            <th>NAMA</th>
+            <th>KEBIASAAN</th>
+            <th>KETERANGAN</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>SEPTA</td>
+            <td>BEROLAHRAGA</td>
+            <td>ganteng masksimal dimasa muda</td>
+            
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>NOFAR</td>
+            <td>TERGANTUNG TEMPAT</td>
+            <td>menjadi malika, saat menginjak remaja</td>
+            
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>ARYA DANUTIRTA</td>
+            <td>BERPANTUN</td>
+            <td>jika masa lalu bisa di ulang, ku ingin bersama fathiyyah</td>
+            
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>KENNETH ANDREAS</td>
+            <td>JUGLING BOLA BASKET</td>
+            <td>jika pintu tak bisa ku tendang, maka tulang kering sebagai gantinya</td>
+            
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>YULISTIO FITRIANSYAH</td>
+            <td>MENGIRIM REELS</td>
+            <td>jika tubuh ini bisa kupaksakan, mana bisa air tenang ku muntahkan</td>
+            
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>HENDRI</td>
+            <td>BERSEMEDI DIBALIK KERAMAIAN</td>
+            <td>diam dibalik bayangan, bersuara menjadi sherpa<br>tempat kopi mana yang belum kucicipi</td>
+            
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>ALVIN DWIANSA</td>
+            <td>BERSILAT LIDAH</td>
+            <td>buah mana yang bisa ku rujak, terpaksa harus ku peram tangan dibalik celana</td>
+            
+        </tr>
+        <tr>
+            <td>8</td>
+            <td>RAPHAEL N.M</td>
+            <td>KOLEKTOR KATA KATA KEMATIAN</td>
+            <td>senantiasa aku diberkati jesus. jesuss save mee!! yeahh... JPG or PNG</td>
+            
+        </tr>
+        <tr>
+            <td>9</td>
+            <td>MARWAN ARIF</td>
+            <td>BERKUDA</td>
+            <td>jika kakiku melangkah pergi, hanya air tenang yang bisa membuatku kembali</td>
+            
+        </tr>
+    </table>
+
+<!--table colspan-->
+<h3> TABLE COLSPAN</h3>
+<table >
+    <tr>
+        <th rowspan="2">NO</th>
+        <th rowspan="2">NAMA</th>
+        <th colspan="2">JENIS KELAMIN</th>
+    </tr>
+    <tr>
+        <td>LAKI-LAKI</td>
+        <td>PEREMPUAN</td>
+    </tr>
+
+</table>
+<p>perbedaan dan persamaan pemakaian colspan dan rowspan adalah</p>
+<ol>
+    <li>colspan digunakan untuk memperlebar ukuran tabel secara horizontal mengikuti tabel terakhir <br>sedangkan rowspan secara vertikal menyesuaikan ukuran colspan</li>
+    <li>colspan dan rowspan digunakan di element (th)</li>
+</ol><hr>
+
+<!--memasukkan gambar-->
+<h3>memasukkan gambar
+    <p>element untuk memasukkan gambar adalah sebagai berikut</p>
+    <img src="https://tse3.mm.bing.net/th?id=OIP.bURKNSgsLD7XU2fZDHgdugHaE8&pid=Api&P=0&h=220" alt="foto senja">
+</h3><hr>
+
+<!--membuat formulir-->
+<h3>MEMBUAT FORMULIR</h3>
+<div class="form">
+    <form action="" method="post">
+        <label for="name">Nama :</label>
+        <input type="text" name="name"><br>
+        <label for="DOB">Tempat Tanggal Lahir:</label>
+        <input type="text number" name="DOB" id=""><br>
+        <label for="address">Alamat:</label>
+        <input type="text" name="address">
+    </form>
+</div><br>
+<div>
+    <form action="">
+        <label for="pw">password</label>
+        <input type="password" id="aku ganteng">
+        <button>
+            <input type="button" value="submit">
+        </button>
+    </form>
+</div><br>
+<div>
+    <textarea name="ketikkan sesuatu" cols="30" rows="10">ketikkan sesuatu</textarea>
+</div>
+
+
 </body>
 </html>
